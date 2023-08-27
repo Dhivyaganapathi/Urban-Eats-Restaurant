@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.content{
+
+    background-image: url('food 1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    font-family:'Pacifico', cursive;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(238, 243, 238) ;
+    border-radius:30px;
+    padding:2px
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+header h1{
+    flex:3
+}
+header a{
+    flex: 2;
+}
+main{
+    background-image: linear-gradient(to right,gray,black);
+    display:grid;
+    grid-template-columns: max-content(23);
+}
+button{
+    font-family:'Pacifico', cursive;
+    background-color: green;
+    border-radius: 20%;
+    color: aliceblue;
+    border-color: aliceblue;
+    margin: 10px;
+}
+header h1{
+    color: white;
+    padding: 8px;
+    font-size: 60px;
+}
+header a{
+    color:antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+    margin:8px;
+    margin-top: 30px;
+    min: width 164px;
+}
+header a:visited{
+    color: gold;
+}
+header a:hover{
+    color: blueviolet;
+    cursor: grab;
+}
+.urban {
+    display: flex;
+    flex-direction: column;
+    color: rgb(153, 167, 26);
+    padding: 10px;
+}
+.urban h2{
+    font-weight: 900;
+    color: rgb(153, 167, 26);
+    font-style: normal;
+}
+.contact{
+    color:rgb(154, 218, 218);
+    margin-top: 5px;
+}
+main h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+th{
+    height:10px;
+    width:10px;
+    background-color: rgb(15, 150, 10);
+    color:rgb(222, 231, 225);
+    font-size: 40px;
+    border-radius: 25px;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+#index-1 tr{
+    margin-top:1em;
+}
+main{
+    font-style: normal;
+    color: white;
+}
+#index-1{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(358px,1fr));
+}
+#index-1 td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+#index-1 td:nth-child(2){
+    justify-self: right;
+}
+#index-2 h2{
+    color:rgb(13, 199, 152);
+    margin-bottom: 0.8em;
+}
+#index-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+#index-2 div{
+    flex:1;
+    padding:1em;
+    min-width:305px;
+}
+footer{
+    background-color:white;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
